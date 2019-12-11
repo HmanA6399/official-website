@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsInfo renders successfuly 1`] = `
+<article
+  className="bg-section"
+  id="contact-form"
+>
+  <h2
+    className="section-title text-center"
+  >
+    Leave a message
+  </h2>
+  <form
+    noValidate={true}
+    onChange={[Function]}
+    onSubmit={[Function]}
+  >
+    <div
+      className="flex-row-2"
+    >
+      <div
+        className="box"
+      >
+        <label
+          htmlFor="name"
+        >
+          Name
+           
+          <span
+            className="sup-span"
+          >
+            <sup>
+              *
+            </sup>
+          </span>
+        </label>
+        <input
+          data-testid="nameInput"
+          id="name"
+          name="name"
+          type="text"
+        />
+        
+      </div>
+      <div
+        className="box"
+      >
+        <label
+          htmlFor="email"
+        >
+          Email
+           
+          <span
+            className="sup-span"
+          >
+            <sup>
+              *
+            </sup>
+          </span>
+        </label>
+        <input
+          data-testid="emailInput"
+          id="email"
+          name="email"
+          type="text"
+        />
+        
+      </div>
+      <div
+        className="box"
+      >
+        <label
+          htmlFor="message"
+        >
+          Your Message
+           
+          <span
+            className="sup-span"
+          >
+            <sup>
+              *
+            </sup>
+          </span>
+        </label>
+        <textarea
+          data-testid="messageInput"
+          id="message"
+          name="message"
+        />
+        
+      </div>
+    </div>
+    <input
+      type="submit"
+      value="SEND"
+    />
+  </form>
+</article>
+`;
