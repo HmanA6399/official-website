@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<article
+  className="bg-section"
+  id="contact-info"
+>
+  <section
+    id="info"
+  >
+    <div>
+      <h4>
+         ADDRESS
+      </h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, voluptate?
+      </p>
+    </div>
+    <div>
+      <h4>
+         EMAIL
+      </h4>
+      <p>
+        example@domain.com
+      </p>
+    </div>
+    <div>
+      <h4>
+         PHONE
+      </h4>
+      <p>
+        +201223456789
+      </p>
+    </div>
+  </section>
+  <section
+    id="map"
+  >
+    <h2>
+      OUR LOCATION
+    </h2>
+    <img
+      alt="map"
+      src="placeholder.png"
+    />
+  </section>
+</article>
+`;
